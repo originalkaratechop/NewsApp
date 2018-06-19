@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">NewsFeedApp - stage 2</string>
+    <string name="no_articles">We are sorry\n:(\nCurrently there are no stories for you.\nYou can change query or come back later.</string>
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Query settings</string>
+
+    <!-- query [CHAR LIMIT=30] -->
+    <string name="settings_query_label">Search key words</string>
+    <string name="settings_query_key" translatable="false">search_query</string>
+    <string name="settings_query_default" translatable="false">pixar</string>
+
+    <!-- order [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Ordering</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <string name="settings_order_by_newest_label">Newest first</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <string name="settings_order_by_oldest_label">Relevance</string>
+    <string name="settings_order_by_oldest_value" translatable="false">relevance</string>
+
+    <!-- category [CHAR LIMIT=30] -->
+    <string name="settings_category_label">Categories</string>
+    <string name="settings_category_key" translatable="false">selector</string>
+    <string name="settings_category_default" translatable="false">@string/settings_category_film_value</string>
+
+    <string name="settings_category_film_label">Films</string>
+    <string name="settings_category_film_value" translatable="false">film/film</string>
+
+    <string name="settings_category_review_label">Reviews and music</string>
+    <string name="settings_category_review_value" translatable="false">tone/reviews</string>
+
+</resources>

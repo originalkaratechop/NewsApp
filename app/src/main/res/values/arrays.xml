@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_newest_label</item>
+        <item>@string/settings_order_by_oldest_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_newest_value</item>
+        <item>@string/settings_order_by_oldest_value</item>
+    </string-array>
+
+    <string-array name="settings_category_labels">
+        <item>@string/settings_category_film_label</item>
+        <item>@string/settings_category_review_label</item>
+    </string-array>
+
+    <string-array name="settings_category_values">
+        <item>@string/settings_category_film_value</item>
+        <item>@string/settings_category_review_value</item>
+    </string-array>
+
+    <string-array name="settings_category_default_values">
+        <item>@string/settings_category_film_value</item>
+    </string-array>
+
+    <string-array name="empty_array"></string-array>
+</resources>

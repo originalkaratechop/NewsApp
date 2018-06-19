@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="xl">16dp</dimen>
+    <dimen name="xxl">36dp</dimen>
+    <dimen name="xxxl">80dp</dimen>
+
+    <dimen name="small_txt">12sp</dimen>
+    <dimen name="medium_txt">14sp</dimen>
+</resources>

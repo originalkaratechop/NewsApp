@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/xl"
+    android:paddingLeft="@dimen/xl"
+    android:paddingRight="@dimen/xl"
+    android:paddingStart="@dimen/xl">
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="@dimen/xxl"
+        android:layout_height="@dimen/xxl"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/circle"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/medium_txt"
+        tools:text="tag" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/xl"
+        android:layout_marginStart="@dimen/xl"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/article_title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:textAllCaps="true"
+            android:textColor="@color/textTitle"
+            android:textSize="@dimen/medium_txt"
+            android:gravity="center_horizontal"
+            tools:text="Article title" />
+
+        <TextView
+            android:id="@+id/article_brief_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColorDefault"
+            android:textSize="@dimen/small_txt"
+            tools:text="Long placeholder location that should wrap to more than 2 lines of text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/xxxl"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/xl"
+        android:layout_marginStart="@dimen/xl"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColorDefault"
+            android:textSize="@dimen/small_txt"
+            android:gravity="center_horizontal"
+            tools:text="Dick Wolf" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColorDefault"
+            android:textSize="@dimen/small_txt"
+            android:gravity="center_horizontal"
+            tools:text="2010-01-31" />
+
+    </LinearLayout>
+</LinearLayout>
